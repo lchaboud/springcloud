@@ -9,7 +9,7 @@ import java.util.Date;
 @RestController
 public class NameController {
 
-    @RequestMapping("/")
+    @RequestMapping("/name")
     public Person index() {
 
         Person person = new Person();
